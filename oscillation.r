@@ -20,6 +20,6 @@ while (tt < T) {
 	tvect <- append(tvect, tt)
 }
 
-write(xvect, "shm1.txt", sep='\n')
-png('shm1.png')
+write(xvect, "r_oscillation.txt", sep='\n')
+png('r_oscillation.png')
 plot(tvect, xvect, xlab='time (s)', ylab='position (m)', main=paste('SHM with b = ', b))
